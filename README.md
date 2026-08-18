@@ -74,31 +74,29 @@
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/koskrub-15/habit-rpg-api">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=koskrub-15&repo=habit-rpg-api&theme=tokyonight&hide_border=true">
-    <img alt="habit-rpg-api" src="https://github-readme-stats.vercel.app/api/pin/?username=koskrub-15&repo=habit-rpg-api&hide_border=true">
-  </picture>
-</a>
+#### [⚔️ Habit RPG API](https://github.com/koskrub-15/habit-rpg-api)
 
-**⚔️ Habit RPG API** — a gamified habit tracker where real tasks grant XP, gold, items and achievements.
+[![CI](https://img.shields.io/github/actions/workflow/status/koskrub-15/habit-rpg-api/ci.yml?branch=main&style=for-the-badge&label=CI&logo=githubactions&logoColor=white)](https://github.com/koskrub-15/habit-rpg-api/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/codecov/c/github/koskrub-15/habit-rpg-api?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/koskrub-15/habit-rpg-api)
+![License](https://img.shields.io/github/license/koskrub-15/habit-rpg-api?style=for-the-badge)
+
+A gamified habit tracker where real tasks grant XP, gold, items and achievements.
 
 - FastAPI + **async SQLAlchemy 2.0** + Pydantic v2
 - JWT auth with refresh-token rotation, Argon2 hashing
 - A generic `RouterFactory` that generates 8 CRUD endpoints — with ownership rules — per resource
-- **299 tests**, ~95% coverage, Alembic migrations, Docker
+- **299 tests**, Alembic migrations, Docker
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/koskrub-15/django-pc-builder">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=koskrub-15&repo=django-pc-builder&theme=tokyonight&hide_border=true">
-    <img alt="django-pc-builder" src="https://github-readme-stats.vercel.app/api/pin/?username=koskrub-15&repo=django-pc-builder&hide_border=true">
-  </picture>
-</a>
+#### [🖥️ Django PC Builder](https://github.com/koskrub-15/django-pc-builder)
 
-**🖥️ Django PC Builder** — a custom-PC shop with live quoting, order tracking and a blog.
+[![CI](https://img.shields.io/github/actions/workflow/status/koskrub-15/django-pc-builder/ci.yml?branch=main&style=for-the-badge&label=CI&logo=githubactions&logoColor=white)](https://github.com/koskrub-15/django-pc-builder/actions/workflows/ci.yml)
+![Top language](https://img.shields.io/github/languages/top/koskrub-15/django-pc-builder?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/github/license/koskrub-15/django-pc-builder?style=for-the-badge)
+
+A custom-PC shop with live quoting, order tracking and a blog.
 
 - Django 5.2 served over **both WSGI and ASGI** behind Nginx
 - Real-time chat on Django Channels + Redis; admins quote builds inside the conversation
@@ -108,21 +106,6 @@
 </td>
 </tr>
 </table>
-
----
-
-### 📊 GitHub
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=koskrub-15&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true">
-    <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=koskrub-15&show_icons=true&hide_border=true&include_all_commits=true&count_private=true">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=koskrub-15&layout=compact&hide_border=true&theme=tokyonight&langs_count=8">
-    <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koskrub-15&layout=compact&hide_border=true&langs_count=8">
-  </picture>
-</p>
 
 ---
 
