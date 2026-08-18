@@ -24,6 +24,7 @@
 - 🦀 I use **Rust** for small CLI tools and for working through algorithms and data structures.
 - 🧪 Every project I publish ships with **tests, linters, type checking and GitHub Actions** — not as an afterthought, but from the first commit.
 - 🐳 Comfortable with **Docker Compose**, multi-service setups (app + PostgreSQL + Redis + Nginx) and database migrations.
+- 🎓 Graduated from **Python Pro** at [Hillel IT School](https://ithillel.ua/) (Dec 2024 – Jun 2025) — top of the group, 100% on every assignment.
 - 🚀 Currently: getting my **Habit RPG API** deployed to production on Fly.io.
 
 ---
