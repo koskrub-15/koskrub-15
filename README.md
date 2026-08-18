@@ -4,7 +4,7 @@
   <b>Backend developer — Python</b><br>
   Async APIs with FastAPI &amp; Django · PostgreSQL · Docker · CI from day one<br>
   Rust on the side, for CLI tools and algorithms<br>
-  📍 <b>Saxony, Germany</b> — open to an <b>Ausbildungsplatz</b> as Fachinformatiker (Anwendungsentwicklung)
+  📍 <b>Saxony, Germany</b> — open to a <b>junior backend role</b> or an <b>Ausbildungsplatz</b> as Fachinformatiker (Anwendungsentwicklung)
 </p>
 
 <p align="center">
