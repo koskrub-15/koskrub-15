@@ -93,7 +93,7 @@ A gamified habit tracker where real tasks grant XP, gold, items and achievements
 #### [🖥️ Django PC Builder](https://github.com/koskrub-15/django-pc-builder)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/koskrub-15/django-pc-builder/ci.yml?branch=main&style=for-the-badge&label=CI&logo=githubactions&logoColor=white)](https://github.com/koskrub-15/django-pc-builder/actions/workflows/ci.yml)
-![Top language](https://img.shields.io/github/languages/top/koskrub-15/django-pc-builder?style=for-the-badge&logo=python&logoColor=white)
+[![Coverage](https://img.shields.io/codecov/c/github/koskrub-15/django-pc-builder?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/koskrub-15/django-pc-builder)
 ![License](https://img.shields.io/github/license/koskrub-15/django-pc-builder?style=for-the-badge)
 
 A custom-PC shop with live quoting, order tracking and a blog.
