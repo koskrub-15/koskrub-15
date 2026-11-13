@@ -56,6 +56,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
 **Data & infrastructure**
@@ -91,13 +92,15 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/koskrub-15/rigi/ci.yml?branch=main&style=for-the-badge&label=CI&logo=githubactions&logoColor=white)](https://github.com/koskrub-15/rigi/actions/workflows/ci.yml)
 [![Coverage](https://img.shields.io/codecov/c/github/koskrub-15/rigi?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/koskrub-15/rigi)
-[![API](https://img.shields.io/badge/API-live_on_Fly.io-24175B?style=for-the-badge&logo=flydotio&logoColor=white)](https://rigi-api.fly.dev/docs)
+[![App](https://img.shields.io/badge/App-live_on_Fly.io-24175B?style=for-the-badge&logo=flydotio&logoColor=white)](https://rigi-web.fly.dev)
+![License](https://img.shields.io/github/license/koskrub-15/rigi?style=for-the-badge)
 
 Scan a zone's QR code when you get on and off — at the end of the period rigi picks the cheapest mix of single, day and week tickets for the trips you actually made.
 
 - Ticket optimizer as **dynamic programming** over the travel days; zone distances via **BFS** on the zone graph
 - **Signed zone QR codes** (JWT), scanned with the phone camera right in the browser
-- **React 19 + TypeScript** front: routing, silent access-token refresh, trip stats with Chart.js
+- **React 19 + TypeScript + Tailwind** front: scan, tickets and profile pages, silent access-token refresh, stats with Chart.js
+- Monthly bills closed and paid through **Stripe Checkout** (test mode), confirmed by a signed webhook
 - FastAPI + async SQLAlchemy + Alembic, JWT with refresh rotation
 - Deployed on **Fly.io** with **Neon** Postgres; CI with every action pinned to a commit SHA
 
